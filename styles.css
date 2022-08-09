@@ -2,8 +2,13 @@ body {
     font-family: 'Menlo', Courier, monospace;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
-
+.header,
+.section-1 {
+    background-color: #636363;
+    color: white
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -25,6 +30,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .section-1 div {
@@ -34,9 +40,11 @@ body {
 .section-1 .heading {
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 .section-1 .text {
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .section-1 button {
@@ -45,4 +53,31 @@ body {
     font-size: 14px;
     font-weight: 500;
     padding: 5px 20px;
+}
+
+.section-2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 25px;
+    background-color: white;
+}
+
+.section-2 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 100px;
+
+}
+.section-2 .card {
+    font-size: 10px;
+    font-weight: 100;
+    margin-right: 25px;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border: solid black 3px;
+    background-color: black;
 }
