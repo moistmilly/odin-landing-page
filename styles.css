@@ -81,3 +81,14 @@ body {
     border: solid black 3px;
     background-color: black;
 }
+.section-3 {
+    background-color: #b1bed1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px
+}
+
+.section-3 .text .quote {
+    margin-right: auto;
+}
