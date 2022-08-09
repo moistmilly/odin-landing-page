@@ -1,11 +1,14 @@
 body {
     font-family: 'Menlo', Courier, monospace;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 40px;
 }
 .header ul {
     list-style-type: none;
@@ -16,4 +19,30 @@ body {
 
 .header a {
     text-decoration: none;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 div {
+    width: 300px;
+}
+
+.section-1 .heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+.section-1 .text {
+    font-size: 12px;
+}
+
+.section-1 button {
+    color: white;
+    background-color: royalblue;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 20px;
 }
