@@ -86,9 +86,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 200px
+    padding: 50px 150px
 }
 
 .section-3 .text .quote {
-    margin-right: auto;
+    text-align: end;
 }
