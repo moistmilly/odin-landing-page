@@ -127,3 +127,13 @@ button {
     border: 2px white solid;
     flex-shrink: 0;
 }
+
+.section-4 .text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-4 .subtext {
+    font-size: 10px;
+    font-weight: 100;
+}
